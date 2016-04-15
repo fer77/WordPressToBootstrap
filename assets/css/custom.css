@@ -102,7 +102,7 @@ img {
     margin: 0 0 10px;
 }
 
-$price-timeline h4 small {
+#price-timeline h4 small {
     color: white;
     font-weight: bold;
     display: block;
@@ -149,19 +149,19 @@ section h3 {
 }
 
 #featurette {
-    background: url('../img/stuff-bg.jpg') 50% 100% repeat fixed;
-    background-size: cover;
-    text-align: center;
-    color: white;
+	background: url('../img/stuff-bg.jpg') 50% 100% repeat fixed;
+	background-size: cover;
+	text-align: center;
+	color: white;
 }
 
 /* === Sprites === */
 
 i.ci {
-    display: inline-block;
-    height: 40px;
-    width: 40px;
-    background: url('../img/icon-sprite.png') no-repeat;
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background: url('../img/icon-sprite.png') no-repeat;
 }
 
 .ci.ci-computer { background-position: 0 0; }

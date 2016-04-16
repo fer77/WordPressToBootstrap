@@ -191,6 +191,11 @@ blockquote:before {
 section {
     padding: 80px;
 }
+
+section.main-content {
+    padding: 10px 0;
+}
+
 .section-header {
     text-align: center;
 }
@@ -535,6 +540,17 @@ footer li.signup-link a:hover {
     border-top: solid 1px #eee;
 }
 
+/* === Resources === */
+.resource {
+    width: 31.33333333%;
+    float: left;
+    margin: 0 3% 40px 0;
+}
+
+.resource:nth-child(3n) {
+    margin-right: 0;
+}
+
 /* === Sprites === */
 
 i.ci {
@@ -595,11 +611,21 @@ textarea {
     #featurette iframe {
         height: 240px;
     }
+    .resource {
+        width: 48%;
+        margin-right: 2%;
+        min-height: 800px;
+    }
 }
 
 /*iphone5*/
 @media screen and (max-width: 568) {
     #instructor. num {
         height: 100px;
+    }
+    .resorce {
+        width: 100%;
+        margin-right: 0;
+        min-height: 0;
     }
 }

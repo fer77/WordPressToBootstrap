@@ -30,13 +30,21 @@ h4{
     font-size: 18px;
 }
 
+p {
+    margin: 0 0 15px;
+}
+
+p.lead {
+    font-weight: normal;
+}
+
 a:link, a:visited {
-    color:#dd5638;
+	color: #dd5638;
 }
 
 a:hover {
-    text-decoration: none;
-    color: #dd5638;
+	text-decoration: none;
+	color: #c9302c;
 }
 
 button, input, .btn, a.btn {
@@ -57,8 +65,7 @@ button, input, .btn, a.btn {
     border-collapse: #d95131;
 }
 
-.btn-
-success:hover {
+.btn-success:hover {
     background: #6a9b3d;
     border-color: #6a9b3d;
 }
@@ -178,6 +185,9 @@ blockquote:before {
 }
 
 /* === Layout === */
+.row + .row {
+    margin-top: 20px;
+}
 section {
     padding: 80px;
 }
@@ -333,3 +343,32 @@ i.ci {
 .ci.ci-community { background-position: -120px 0; }
 .ci.ci-instructor { background-position: -160px 0; }
 .ci.ci-device { background-position: -200px 0; }
+
+/* === Media Queries === */
+
+@media screen and (max-width: 991px) {
+    #instructor .container {
+        background: rgba(255, 255, 255, 0.8);
+        padding: 20px;
+    }
+}
+
+/*ipad*/
+@media screen and ( max-width: 768px) {
+    .logo {
+        width: 50%;
+    }
+    #optin p {
+        margin: 0 0 10px;
+    }
+    #featurette iframe {
+        height: 240px;
+    }
+}
+
+/*iphone5*/
+@media screen and (max-width: 568) {
+    #instructor. num {
+        height: 100px;
+    }
+}

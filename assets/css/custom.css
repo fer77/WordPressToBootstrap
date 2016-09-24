@@ -648,8 +648,11 @@ button[type="submit"]:hover {
 
 /*iphone5*/
 @media screen and (max-width: 568) {
-    #instructor. num {
+    #instructor .num {
         height: 100px;
+    }
+    #instructor .num span {
+        font-size: 16px;
     }
     .resorce {
         width: 100%;

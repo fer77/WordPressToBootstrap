@@ -3,10 +3,11 @@ Green: #79b044
 Salmon: #dd5638
 Blue Gray: #3e4249
 */
+
 /* ===General === */
 body {
     margin-top: 50px;
-    font-family: 'Raleway', Helvetica;
+    font-family: 'Raleway', Helvetica, sans-serif;
     font-size: 16px;
     background: url('../img/title/jpg') top left repeat;    
 }

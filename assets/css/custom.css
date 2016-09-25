@@ -43,8 +43,8 @@ a:link, a:visited {
 	color: #dd5638;
 }
 
-a:hover {
-	text-decoration: none;
+.blog a:hover {
+	text-decoration: none !important;
 	color: #c9302c;
 }
 
@@ -450,7 +450,7 @@ footer li.signup-link a:hover {
 	display: table;
 }
 
-.post-comments-badge a {
+#primary .post-comments-badge a {
 	display: table-cell;
 	vertical-align: middle;
 	color: white;

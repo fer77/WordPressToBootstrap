@@ -568,7 +568,7 @@ i.ci {
 .ci.ci-instructor { background-position: -160px 0; }
 .ci.ci-device { background-position: -200px 0; }
 
-/*=== Form ===*/
+/*=== Forms ===*/
 
 label {
 	display: block;
@@ -583,6 +583,8 @@ input[type="search"],
 textarea {
 	color: #666;
 	border: 1px solid #ccc;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
 	border-radius: 3px;
 	display: block;
 	-moz-box-sizing: border-box;
